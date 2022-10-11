@@ -22,7 +22,7 @@
   "plugins": [
     "@typescript-eslint",
     "import",
-    "jsx-expressions"
+    // "jsx-expressions"
   ],
   "rules": {
     "indent": ["error", 2, { "SwitchCase": 1 }],
