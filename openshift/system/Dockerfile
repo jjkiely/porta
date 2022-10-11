@@ -23,6 +23,7 @@ RUN yum-config-manager --save --setopt=cbs.centos.org_repos_sclo7-rh-ruby26-rh-c
               postgresql10 postgresql10-devel postgresql10-libs \
               file \
               rh-nodejs12 \
+              rh-varnish5-jemalloc \
     && yum install -y epel-release \
     && yum -y clean all
 

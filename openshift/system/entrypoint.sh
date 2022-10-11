@@ -21,4 +21,6 @@ fi
 # Exporting all bundler environment
 export ${BUNDLER_ENV}
 
+export LD_PRELOAD=/opt/rh/rh-varnish5/root/usr/lib64/librh-varnish5jemalloc.so.2
+
 exec bundle exec "$@"
